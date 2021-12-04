@@ -1,6 +1,6 @@
 {
 "help":"whzbot ver{version}\n.help 更新\n.help 协议\n.help 设定\n.help 指令\n.help 作者",
-"version":"2.5.1.63",
+"version":"2.5.1.64",
 "ver2.5.1":"修复了一些文本错误,优化了帮助文档,修复了st和en的一些bug,修复了sc默认d100的问题",
 "ver2.5.0":"私聊中支持小程序和图片的链接转换,修复了保存报错的bug",
 "ver2.3.1":"恢复了st和r,修复了ra",

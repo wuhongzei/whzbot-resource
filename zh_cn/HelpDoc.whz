@@ -7,7 +7,9 @@
 "ver2.2.0":"修复了help，优化了deck的执行逻辑",
 "ver2.1.2":"修复了ra, help指令，增加了deck指令",
 "ver2.1.0":"修复了jrrp数值不随日期随机的bug,修复了draw不读取重复卡牌的bug",
-"更新":"ver2.5.0:{ver2.5.1}\nver2.5.0:{ver2.5.0}\n更多查询help 版本号",
+"更新":"ver2.5.0:{ver2.5.1}
+ver2.5.0:{ver2.5.0}
+更多查询help 版本号",
 "协议":"0.本协议是Shiki/mirai(whzbot)的服务协议。如果你看到了这句话，意味着Master应用默认协议，请注意。
 1.邀请骰娘、使用掷骰服务和在群内阅读此协议视为同意并承诺遵守此协议，否则请使用.dismiss移出骰娘。
 2.不允许禁言、移出骰娘或刷屏掷骰等对骰娘的不友善行为，这些行为将会提高骰娘被制裁的风险。开关骰娘响应请使用.bot on/off。
@@ -219,4 +221,7 @@ NOT IMPLEMENTED 大失败自动失去最大值
 "投食":"投食直接问whz
 投食Shiki，请选择http:#shiki.stringempty.xyz/投食,或http:#docs.kokona.tech/zh/latest/About.html
 *whz不对Shiki的投食链接安全性负责",
+"image":"base command for images.
+image find/search [url] this will search the source of this image, powered by ascii2d.net.
+To obtain a image url, simply send image to bot."
 }

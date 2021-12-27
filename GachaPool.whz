@@ -1,0 +1,162 @@
+{
+	"genshin_event": [ {
+			"gacha":"ys_e5",
+			"type":"gacha",
+			"prob": {
+				"predicate":"prob_kinked",
+				"base":0.006,
+				"kink":73,
+				"increment":0.06
+			},
+			"count_mode":1,
+			"store":"ys_e5"
+		}, {
+			"gacha":"ys_e4",
+			"type":"gacha",
+			"prob": {
+				"predicate":"prob_kinked",
+				"base":0.051,
+				"kink":8,
+				"increment":0.51
+			},
+			"count_mode":1,
+			"store":"ys_e4"
+		},
+		{
+			"gacha":"原神三星",
+			"type":"str",
+			"prob": {
+				"predicate":"prob_remain"
+			},
+			"count_mode":0
+		}
+	],
+	"genshin_weapon": [
+		{
+			"gacha":"ys_w5",
+			"type":"gacha",
+			"prob": {
+				"predicate":"prob_kinked",
+				"base":0.007,
+				"kink":62,
+				"increment":0.07
+			},
+			"count_mode":1,
+			"store":"ys_w5"
+		},
+		{
+			"gacha":"ys_w4",
+			"type":"gacha",
+			"prob": {
+				"predicate":"prob_kinked",
+				"base":0.06,
+				"kink":8,
+				"increment":0.6
+			},
+			"count_mode":1,
+			"store":"ys_w4"
+		},
+		{
+			"gacha":"原神三星",
+			"type":"str",
+			"prob": {
+				"predicate":"prob_remain"
+			},
+			"count_mode":0
+		}
+	],
+	"ys_e5":[
+		{
+			"gacha":"原神五星up",
+			"type":"deck",
+			"prob": {
+				"predicate":"prob_kinked",
+				"base":0.5,
+				"kink":1,
+				"increment":0.5001
+			},
+			"count_mode":1,
+			"store":"ys_e5up"
+		},
+		{
+			"gacha":"原神五星m",
+			"type":"deck",
+			"prob": {
+				"predicate":"prob_remain"
+			},
+			"count_mode":0
+		}
+	],
+	"ys_e4":[
+		{
+			"gacha":"原神四星up",
+			"type":"deck",
+			"prob": {
+				"predicate":"prob_kinked",
+				"base":0.5,
+				"kink":1,
+				"increment":0.5001
+			},
+			"count_mode":1,
+			"store":"ys_e4up"
+		},
+		{
+			"gacha":"原神四星m",
+			"type":"deck",
+			"prob": {
+				"predicate":"prob_const",
+				"prob":0.25
+			},
+			"count_mode":0
+		},
+        {
+            "gacha":"4星武器",
+            "type":"str",
+            "prob": {
+                "predicate":"prob_remain"
+            },
+            "count_mode":0
+        }
+	],
+	"arknights_event": [ {
+			"gacha":"舟游六星活动",
+			"type":"deck",
+			"prob": {
+				"predicate":"prob_kinked",
+				"base":0.02,
+				"kink":50,
+				"increment":0.02
+			},
+			"count_mode":1,
+			"store":"an_n6"
+		}, {
+			"gacha":"舟游五星活动",
+			"type":"deck",
+			"prob": {
+				"predicate":"prob_kinked",
+				"base":0.08,
+				"kink":9,
+				"increment":1
+			},
+			"count_mode":1,
+			"store":"an_n5"
+		},
+		{
+			"gacha":"舟游四星活动",
+			"type":"deck",
+			"prob": {
+				"predicate":"prob_const",
+				"prob":0.5
+			},
+			"count_mode":0
+		},
+		{
+			"gacha":"舟游三星",
+			"type":"deck",
+			"prob": {
+				"predicate":"prob_remain"
+			},
+			"count_mode":0
+		}
+	]
+}

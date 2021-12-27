@@ -1,13 +1,20 @@
 {
-"help":"whzbot ver{version}\n.help 更新\n.help 协议\n.help 设定\n.help 指令\n.help 作者",
-"version":"2.5.1.64",
+"help":"whzbot ver{version}
+.help 更新
+.help 协议
+.help 设定
+.help 指令
+.help 作者",
+"version":"2.6.0.66",
+"ver2.6.0":"新增了抽卡功能，详见.help gacha",
 "ver2.5.1":"修复了一些文本错误,优化了帮助文档,修复了st和en的一些bug,修复了sc默认d100的问题",
 "ver2.5.0":"私聊中支持小程序和图片的链接转换,修复了保存报错的bug",
 "ver2.3.1":"恢复了st和r,修复了ra",
 "ver2.2.0":"修复了help，优化了deck的执行逻辑",
 "ver2.1.2":"修复了ra, help指令，增加了deck指令",
 "ver2.1.0":"修复了jrrp数值不随日期随机的bug,修复了draw不读取重复卡牌的bug",
-"更新":"ver2.5.0:{ver2.5.1}
+"更新":"ver2.6.0:{ver2.6.0}
+ver2.5.1:{ver2.5.1}
 ver2.5.0:{ver2.5.0}
 更多查询help 版本号",
 "协议":"0.本协议是Shiki/mirai(whzbot)的服务协议。如果你看到了这句话，意味着Master应用默认协议，请注意。
@@ -215,7 +222,8 @@ NOT IMPLEMENTED 大失败自动失去最大值
 .draw 单张塔罗牌 随机抽取1/23大阿附解释
 .draw <牌阵名>牌阵 抽取塔罗牌阵，常用 圣三角、四要素、小十字、六芒星、凯尔特十字
 .help <塔罗牌名><正逆>查询塔罗牌详解.
-例如 .help 太阳正位 /.help 圣杯8逆位",
+例如 .help 太阳正位 /.help 圣杯8逆位
++快捷指令:.tarot, .单抽塔罗牌, .单张塔罗牌, .圣三角牌阵, .四要素牌阵",
 "whz":"让骰子不务正业的恶毒程序员,终日摸鱼的诡异猫头鹰,喜欢泡澡的白化病末影人",
 "溯洄":"孕育万千骰娘生机之母，萌妹吃鱼之神，正五棱双角锥体对的监护人，一切诡秘的窥见者，拟人者主宰，时空舞台外的逆流者，永转的命运之轮",
 "投食":"投食直接问whz
@@ -223,5 +231,18 @@ NOT IMPLEMENTED 大失败自动失去最大值
 *whz不对Shiki的投食链接安全性负责",
 "image":"base command for images.
 image find/search [url] this will search the source of this image, powered by ascii2d.net.
-To obtain a image url, simply send image to bot."
+To obtain a image url, simply send image to bot.",
+"gacha":"这是附带保底的模拟抽卡功能。
+你的保底将保存在人物卡，详见.character
+使用方式.gacha [卡池名称] ([次数])，亦可直接使用预设的快捷指令。
+当前可使用的卡池：
++原神活动池：genshin_event，亦可.原神抽卡
++明日方舟活动池：arknights_event，亦可.舟游抽卡
+不完整的池子:
+-genshin_weapon
+隐藏池不予显示()
+*关于快捷指令还请查看.help 快捷指令
+*本功能出货率基本按照游戏设定，也可能因程序限制未能完美复刻概率",
+"快捷指令": "根据设定将复杂指令简化的便利功能，使用快捷指令只需要在前面加上./。即可。快捷指令不会变更后续参数
+例如，原指令.draw tarot [抽卡数] 与快捷指令 .tarot [抽卡数] 等价"
 }

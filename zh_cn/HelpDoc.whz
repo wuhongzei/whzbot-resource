@@ -5,7 +5,8 @@
 .help 设定
 .help 指令
 .help 作者",
-"version":"2.6.0.66",
+"version":"2.6.1.68",
+"ver2.6.1":"修复了.r和.ra的一些问题，新增了默认骰（但是还不能更改）",
 "ver2.6.0":"新增了抽卡功能，详见.help gacha",
 "ver2.5.1":"修复了一些文本错误,优化了帮助文档,修复了st和en的一些bug,修复了sc默认d100的问题",
 "ver2.5.0":"私聊中支持小程序和图片的链接转换,修复了保存报错的bug",
@@ -13,7 +14,8 @@
 "ver2.2.0":"修复了help，优化了deck的执行逻辑",
 "ver2.1.2":"修复了ra, help指令，增加了deck指令",
 "ver2.1.0":"修复了jrrp数值不随日期随机的bug,修复了draw不读取重复卡牌的bug",
-"更新":"ver2.6.0:{ver2.6.0}
+"更新":"ver2.6.1:{ver2.6.1}
+ver2.6.0:{ver2.6.0}
 ver2.5.1:{ver2.5.1}
 ver2.5.0:{ver2.5.0}
 更多查询help 版本号",
@@ -29,19 +31,47 @@ ver2.5.0:{ver2.5.0}
 9.骰娘提供掷骰服务是完全免费的，欢迎投食。
 10.本服务最终解释权归服务提供方所有。",
 "链接":"跑团记录着色器:https:#logpainter.kokona.tech",
-"设定":"Master：whz\n.me使用：禁止\n.jrrp使用：允许
-邀请处理：黑名单制，非禁即入\n讨论组使用：允许
-移出反制：拉黑群和操作者\n禁言反制：默认拉黑群和群主
-刷屏反制：警告\n邀请人责任：有限连带\n窥屏可能：有",
-"作者":"Copyright (C) 2018-2019 w4123溯洄 \nCopyright (C) 2019 String.Empty \nCopyright (C) 2020-2022 whz",
+"设定":"Master：whz
+.me使用：禁止
+.jrrp使用：允许
+邀请处理：黑名单制，非禁即入
+讨论组使用：允许
+移出反制：拉黑群和操作者
+禁言反制：默认拉黑群和群主
+刷屏反制：警告
+邀请人责任：有限连带
+窥屏可能：有",
+"作者":"Copyright (C) 2018-2019 w4123溯洄
+Copyright (C) 2019 String.Empty
+Copyright (C) 2020-2022 whz",
 "指令":"at骰娘后接指令可以指定骰娘单独响应，如at骰娘.bot off
 多数指令需要后接参数，请.help对应指令 获取详细信息
-掷骰指令包括:\n.dismiss 退群\n.bot 开关\n.rules 规则速查
-.r 掷骰\n.ob 旁观模式\n.set 设置默认骰\n.name 随机姓名\n.nn 设置昵称
-.coc COC人物作成\n.dnd DND人物作成\n.st 角色卡设置\n.rc/ra 检定
-.setcoc 设置检定房规\n.sc 理智检定\n.en 成长检定\n.ri 先攻\n.init 先攻列表
-.ww 骰池\n.me 第三人称动作\n.jrrp 今日人品\n.send 向Master发送消息
-.draw 抽牌\n.deck 牌堆\n为了避免未预料到的指令误判，请尽可能在参数之间使用空格",
+掷骰指令包括:
+.dismiss 退群
+.bot 开关
+.rules 规则速查
+.r 掷骰
+.ob 旁观模式
+.set 设置默认骰
+.name 随机姓名
+.nn 设置昵称
+.coc COC人物作成
+.dnd DND人物作成
+.st 角色卡设置
+.rc/ra 检定
+.setcoc 设置检定房规
+.sc 理智检定
+.en 成长检定
+.ri 先攻
+.init 先攻列表
+.ww 骰池
+.me 第三人称动作
+.jrrp 今日人品
+.send 向Master发送消息
+.draw 抽牌
+.deck 牌堆
+.gacha
+为了避免未预料到的指令误判，请尽可能在参数之间使用空格",
 "deck":"查询牌堆列表，可用.draw [牌堆]抽牌
 deck [牌堆名] 可查询牌堆内容",
 "退群":"{dismiss}",
@@ -87,7 +117,8 @@ NOT_IMPLEMENTED.rs1D10+1D6+3 省略单个骰子的点数，直接给结果",
 "奖励/惩罚骰":"{奖惩骰}",
 "奖惩骰":"COC中奖励/惩罚骰是额外投掷的十位骰，最终结果选用点数更低/更高的结果（不出现大失败的情况下等价于更小/更大的十位骰）
 虽然可以，但是本bot不对超过d100的奖惩骰做准确性上的保证
-.rb2 2个奖励骰\nrcp 射击 1个惩罚骰",
+.rb2 2个奖励骰
+rcp 射击 1个惩罚骰",
 "随机姓名":"{name}",
 "设置姓名":"{name}",
 "name":"NOT IMPLEMENTED 设置/随机角色名, 姓名将跟随角色，撕卡会重置
@@ -100,7 +131,7 @@ NOT_IMPLEMENTED.rs1D10+1D6+3 省略单个骰子的点数，直接给结果",
 "设置昵称":"{nn}",
 "昵称:"{nn}",
 "nn":"设置昵称：.nn [昵称] / .nn / .nnn(cn/jp/en)
-.nn kp\t#昵称前的./！等符号会被自动忽略
+.nn kp #昵称前的./！等符号会被自动忽略
 .nn 视为删除昵称
 .nnr/.nnn 设置为随机昵称
 .nnr [lang] 设置限定随机昵称
@@ -200,10 +231,13 @@ NOT IMPLEMENTED 大失败自动失去最大值
 .me on 群内启用.me",
 "今日人品":"{jrrp}",
 "jrrp":"今日人品：.jrrp
-.jrrp off\t#群内禁用jrrp\n.jrrp on\t#群内启用jrrp
-一天一个人品值\n骰娘只负责从随机，请勿无能狂怒
+.jrrp off #群内禁用jrrp
+.jrrp on #群内启用jrrp
+一天一个人品值
+骰娘只负责从随机，请勿无能狂怒
 如何发配所有人的命运，让骰子不务正业的恶毒程序员,叫声是咕咕咕的诡异猫头鹰,喜欢泡澡的白化病末影人——whz本体掌握",
-"send":"NOT IMPLEMENTED 发送消息：.send 想对Master说的话\n如果用来调戏Master请做好心理准备",
+"send":"NOT IMPLEMENTED 发送消息：.send 想对Master说的话
+如果用来调戏Master请做好心理准备",
 "入群欢迎":"{welcome}",
 "入群欢迎词":"{welcome}",
 "welcome":"NOT IMPLEMENTED 入群欢迎词：.welcome

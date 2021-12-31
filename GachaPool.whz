@@ -1,6 +1,6 @@
 {
 	"genshin_event": [ {
-			"gacha":"ys_e5",
+			"gacha":"{ys_e5}",
 			"type":"gacha",
 			"prob": {
 				"predicate":"prob_kinked",
@@ -11,7 +11,7 @@
 			"count_mode":1,
 			"store":"ys_e5"
 		}, {
-			"gacha":"ys_e4",
+			"gacha":"{ys_e4}",
 			"type":"gacha",
 			"prob": {
 				"predicate":"prob_kinked",
@@ -33,7 +33,7 @@
 	],
 	"genshin_weapon": [
 		{
-			"gacha":"ys_w5",
+			"gacha":"{ys_w5}",
 			"type":"gacha",
 			"prob": {
 				"predicate":"prob_kinked",
@@ -45,7 +45,7 @@
 			"store":"ys_w5"
 		},
 		{
-			"gacha":"ys_w4",
+			"gacha":"{ys_w4}",
 			"type":"gacha",
 			"prob": {
 				"predicate":"prob_kinked",
@@ -67,7 +67,7 @@
 	],
 	"ys_e5":[
 		{
-			"gacha":"原神五星up",
+			"gacha":"★★★★★{原神五星up}",
 			"type":"deck",
 			"prob": {
 				"predicate":"prob_kinked",
@@ -79,7 +79,7 @@
 			"store":"ys_e5up"
 		},
 		{
-			"gacha":"原神五星m",
+			"gacha":"5★{原神五星m}",
 			"type":"deck",
 			"prob": {
 				"predicate":"prob_remain"
@@ -89,7 +89,7 @@
 	],
 	"ys_e4":[
 		{
-			"gacha":"原神四星up",
+			"gacha":"★★★★{原神四星up}",
 			"type":"deck",
 			"prob": {
 				"predicate":"prob_kinked",
@@ -101,7 +101,7 @@
 			"store":"ys_e4up"
 		},
 		{
-			"gacha":"原神四星m",
+			"gacha":"4★{原神四星m}",
 			"type":"deck",
 			"prob": {
 				"predicate":"prob_const",
@@ -110,7 +110,7 @@
 			"count_mode":0
 		},
         {
-            "gacha":"4星武器",
+            "gacha":"{4星武器}",
             "type":"str",
             "prob": {
                 "predicate":"prob_remain"
@@ -119,7 +119,7 @@
         }
 	],
 	"arknights_event": [ {
-			"gacha":"舟游六星活动",
+			"gacha":"{舟游六星活动}",
 			"type":"deck",
 			"prob": {
 				"predicate":"prob_kinked",
@@ -130,7 +130,7 @@
 			"count_mode":1,
 			"store":"an_n6"
 		}, {
-			"gacha":"舟游五星活动",
+			"gacha":"{舟游五星活动}",
 			"type":"deck",
 			"prob": {
 				"predicate":"prob_kinked",
@@ -142,7 +142,7 @@
 			"store":"an_n5"
 		},
 		{
-			"gacha":"舟游四星活动",
+			"gacha":"{舟游四星活动}",
 			"type":"deck",
 			"prob": {
 				"predicate":"prob_const",
@@ -151,7 +151,7 @@
 			"count_mode":0
 		},
 		{
-			"gacha":"舟游三星",
+			"gacha":"{舟游三星}",
 			"type":"deck",
 			"prob": {
 				"predicate":"prob_remain"

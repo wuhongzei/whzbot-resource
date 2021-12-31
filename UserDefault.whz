@@ -1,0 +1,34 @@
+{
+    "general":{
+        "on":1,
+        "cool_down":0
+    },
+    "dice":{
+        "default_dice":100
+    },
+    "tarot":{
+        "on":1
+    },
+    "simple_chat":{
+        "on":1,
+        "cool_down":0
+    },
+    "mc_server":{
+        "on":0,
+        "new":0
+    },
+    "math":{
+        "on":1
+    },
+    "group":{
+        "on":0
+    },
+    "general":{
+        "on":1
+    },
+    "web":{
+        "on":1,
+        "anti_app":1,
+        "image_url":1
+    }
+}

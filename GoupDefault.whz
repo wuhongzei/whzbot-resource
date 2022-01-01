@@ -23,9 +23,6 @@
     "group":{
         "on":1
     },
-    "general":{
-        "on":1
-    },
     "web":{
         "on":0,
         "anti_app":0,

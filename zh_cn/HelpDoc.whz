@@ -5,7 +5,8 @@
 .help 设定
 .help 指令
 .help 作者",
-"version":"2.6.1.68",
+"version":"2.6.2.70",
+"ver2.6.2":"允许自由调整设置，详见.set",
 "ver2.6.1":"修复了.r和.ra的一些问题，新增了默认骰（但是还不能更改）",
 "ver2.6.0":"新增了抽卡功能，详见.help gacha",
 "ver2.5.1":"修复了一些文本错误,优化了帮助文档,修复了st和en的一些bug,修复了sc默认d100的问题",
@@ -14,7 +15,8 @@
 "ver2.2.0":"修复了help，优化了deck的执行逻辑",
 "ver2.1.2":"修复了ra, help指令，增加了deck指令",
 "ver2.1.0":"修复了jrrp数值不随日期随机的bug,修复了draw不读取重复卡牌的bug",
-"更新":"ver2.6.1:{ver2.6.1}
+"更新":"ver2.6.2:{ver2.6.2}
+ver2.6.1:{ver2.6.1}
 ver2.6.0:{ver2.6.0}
 ver2.5.1:{ver2.5.1}
 ver2.5.0:{ver2.5.0}
@@ -52,7 +54,7 @@ Copyright (C) 2020-2022 whz",
 .rules 规则速查
 .r 掷骰
 .ob 旁观模式
-.set 设置默认骰
+.set 设置
 .name 随机姓名
 .nn 设置昵称
 .coc COC人物作成
@@ -264,7 +266,9 @@ NOT IMPLEMENTED 大失败自动失去最大值
 投食Shiki，请选择http:#shiki.stringempty.xyz/投食,或http:#docs.kokona.tech/zh/latest/About.html
 *whz不对Shiki的投食链接安全性负责",
 "image":"base command for images.
-image find/search [url] this will search the source of this image, powered by ascii2d.net.
+image find/search ([url]) this will search the source of this image, powered by ascii2d.net.
+*image search now have a 120s common cool down.
+*you can leave url empty if you sent an image to bot before.
 To obtain a image url, simply send image to bot.",
 "gacha":"这是附带保底的模拟抽卡功能。
 你的保底将保存在人物卡，详见.character
@@ -278,5 +282,14 @@ To obtain a image url, simply send image to bot.",
 *关于快捷指令还请查看.help 快捷指令
 *本功能出货率基本按照游戏设定，也可能因程序限制未能完美复刻概率",
 "快捷指令": "根据设定将复杂指令简化的便利功能，使用快捷指令只需要在前面加上./。即可。快捷指令不会变更后续参数
-例如，原指令.draw tarot [抽卡数] 与快捷指令 .tarot [抽卡数] 等价"
+例如，原指令.draw tarot [抽卡数] 与快捷指令 .tarot [抽卡数] 等价",
+"set":".set [设置名] ([数值]) 设定数值，省缺数值会移除设定，重置为默认值
+*在群里你需要至少管理员权限来更改设置
+*设定数值读取失败会导致使用默认值
+目前可用的设置
+dice.default_dice / dd 默认骰 默认100
+web.on 1开0关 默认群聊关私聊开
+web.anti_app 1开0关 默认群聊关私聊开
+web.image_url 1开0关 默认群聊关私聊开
+"
 }

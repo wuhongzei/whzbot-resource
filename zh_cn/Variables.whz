@@ -176,4 +176,5 @@ addFriend=欢迎使用本机器人！\n.help协议 确认服务协议\n.help指令 查看指令列表\n.h
 addGroup=欢迎使用本机器人！\n请使用.dismiss使本机器人退群退讨论组\n.bot on/off开启或关闭\n.help协议 确认服务协议\n.help指令 查看指令列表\n.help设定 确认骰娘设定\n.help链接 查看源码文档\n邀请入群默认视为同意服务协议
 selfName=whzbot
 botMsg=\n使用.help更新 查看本机器人更新内容
-hlpMsg=whzbot ver1.0.0.4\n请使用.dismiss使本机器人退群退讨论组\n.bot on/off 开启或关闭\n.help协议 确认服务协议\n.help指令 查看指令列表\n.help设定 确认骰娘设定\n.help占卜 查看塔罗牌占卜功能介绍\n.help链接 查看源码文档
+hlpMsg=whzbot ver2.6.2.71\n请使用.dismiss使本机器人退群退讨论组\n.bot on/off 开启或关闭\n.help协议 确认服务协议\n.help指令 查看指令列表\n.help设定 确认骰娘设定\n.help占卜 查看塔罗牌占卜功能介绍\n.help链接 查看源码文档
+no_permit=You need permission of {0}, but you have {1}

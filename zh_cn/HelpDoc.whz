@@ -5,7 +5,8 @@
 .help 设定
 .help 指令
 .help 作者",
-"version":"2.6.2.70",
+"version":"2.7.0.74",
+"ver2.7.0":"现在可以通过.set show [路径] 查看当前设置。增加了game指令，详情查询.help game",
 "ver2.6.2":"允许自由调整设置，详见.set",
 "ver2.6.1":"修复了.r和.ra的一些问题，新增了默认骰（但是还不能更改）",
 "ver2.6.0":"新增了抽卡功能，详见.help gacha",
@@ -72,7 +73,8 @@ Copyright (C) 2020-2022 whz",
 .send 向Master发送消息
 .draw 抽牌
 .deck 牌堆
-.gacha
+.gacha 模拟抽卡
+.game 小游戏
 为了避免未预料到的指令误判，请尽可能在参数之间使用空格",
 "deck":"查询牌堆列表，可用.draw [牌堆]抽牌
 deck [牌堆名] 可查询牌堆内容",
@@ -284,6 +286,7 @@ To obtain a image url, simply send image to bot.",
 "快捷指令": "根据设定将复杂指令简化的便利功能，使用快捷指令只需要在前面加上./。即可。快捷指令不会变更后续参数
 例如，原指令.draw tarot [抽卡数] 与快捷指令 .tarot [抽卡数] 等价",
 "set":".set [设置名] ([数值]) 设定数值，省缺数值会移除设定，重置为默认值
+.set show/query [设置名] 显示当前设定
 *在群里你需要至少管理员权限来更改设置
 *设定数值读取失败会导致使用默认值
 目前可用的设置
@@ -291,5 +294,13 @@ dice.default_dice / dd 默认骰 默认100
 web.on 1开0关 默认群聊关私聊开
 web.anti_app 1开0关 默认群聊关私聊开
 web.image_url 1开0关 默认群聊关私聊开
-"
+",
+"game":"复杂的小游戏系统 , 若要查询具体游戏规则，使用.help [游戏名]
+.game init [游戏名] 来创建一个对局, 将会返还一个uuid，可以用于邀请其他玩家.
+    当前可用的游戏 tictactoe/TicTacToe 井字棋.
+.game join [uuid] 加入一个游戏，uuid在创建对局时会获得
+.game begin 当游戏人齐后房主使用此指令开始游戏
+.game move [操作] 目前需要用这个指令进行对局操作",
+"井字棋":"{tictactoe}",
+"tictactoe":"井字棋，在3x3的棋盘上连成三个为胜"
 }

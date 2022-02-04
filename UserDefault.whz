@@ -1,10 +1,14 @@
 {
+    "bot":{
+        "on":1
+    },
     "general":{
         "on":1,
         "cool_down":0
     },
     "dice":{
-        "default_dice":100
+        "default_dice":100,
+        "rule":0
     },
     "tarot":{
         "on":1

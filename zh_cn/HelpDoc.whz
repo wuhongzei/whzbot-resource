@@ -5,7 +5,8 @@
 .help 设定
 .help 指令
 .help 作者",
-"version":"2.7.0.74",
+"version":"2.7.1.77",
+"ver2.7.1":"增加了开关，使用方式.set bot on/off。 修改了game。增加了.set dice.rule （可用数值0-6）。不再允许在.set设置奇怪的东西",
 "ver2.7.0":"现在可以通过.set show [路径] 查看当前设置。增加了game指令，详情查询.help game",
 "ver2.6.2":"允许自由调整设置，详见.set",
 "ver2.6.1":"修复了.r和.ra的一些问题，新增了默认骰（但是还不能更改）",
@@ -16,11 +17,11 @@
 "ver2.2.0":"修复了help，优化了deck的执行逻辑",
 "ver2.1.2":"修复了ra, help指令，增加了deck指令",
 "ver2.1.0":"修复了jrrp数值不随日期随机的bug,修复了draw不读取重复卡牌的bug",
-"更新":"ver2.6.2:{ver2.6.2}
+"更新":"ver2.6.1:{ver2.7.1}
+ver2.6.0:{ver2.7.0}
+ver2.6.2:{ver2.6.2}
 ver2.6.1:{ver2.6.1}
 ver2.6.0:{ver2.6.0}
-ver2.5.1:{ver2.5.1}
-ver2.5.0:{ver2.5.0}
 更多查询help 版本号",
 "协议":"0.本协议是Shiki/mirai(whzbot)的服务协议。如果你看到了这句话，意味着Master应用默认协议，请注意。
 1.邀请骰娘、使用掷骰服务和在群内阅读此协议视为同意并承诺遵守此协议，否则请使用.dismiss移出骰娘。
@@ -289,11 +290,14 @@ To obtain a image url, simply send image to bot.",
 .set show/query [设置名] 显示当前设定
 *在群里你需要至少管理员权限来更改设置
 *设定数值读取失败会导致使用默认值
+*on/off 分别等价于1/0，怕混淆可用
 目前可用的设置
 dice.default_dice / dd 默认骰 默认100
-web.on 1开0关 默认群聊关私聊开
-web.anti_app 1开0关 默认群聊关私聊开
-web.image_url 1开0关 默认群聊关私聊开
+dice.rule / rule 检定所使用的规则 默认0
+bot.on/bot  bot开关,关闭后除了.set和管理员指令外bot都将不再相应
+web.on 默认群聊关私聊开
+web.anti_app 默认群聊关私聊开
+web.image_url 默认群聊关私聊开
 ",
 "game":"复杂的小游戏系统 , 若要查询具体游戏规则，使用.help [游戏名]
 .game init [游戏名] 来创建一个对局, 将会返还一个uuid，可以用于邀请其他玩家.

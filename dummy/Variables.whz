@@ -1,0 +1,115 @@
+{
+    "default":"Aaaaaaaaaa...",
+    "unknown_command":"unknown command",
+    "illegal_arg":"illegal argument",
+    "no_permit":"no permission: need {1} but have {2}",
+    "whz":{
+        "not_implemented":"NOT IMPLEMENTED",
+        "disabled":"function disabled by whz"
+    },
+    "bot":{
+        "empty_call":"?",
+        "inhibited":"function inhibited"
+    },
+    "help":{
+        "not_found":"help not found"
+    },
+    "jrrp":{
+        "reply":"jrrp of {0} = {1}."
+    },
+    "omkj":{
+        "reply":"omkj = {1}"
+    },
+    "roll_det":{
+        "reply":"{0} det {1} get %d/%d, {2}",
+        "reply_reason":"{0} {1} get %d/%d, {2}, because {3}",
+        "err_suc_rate":"error: success rate",
+        "err_unknown_prop": "error: unknown property"
+    },
+    "roll":{
+        "reply":"{0} get {1}",
+        "reply_reason":"{0} get {1} due to {2}",
+        "err": {
+            "arg_after_b":"error: missing argument after b",
+            "arg_after_p":"error: missing argument after p",
+            "arg_after_k":"error: missing argument after k",
+            "coexist_c_bp":"error: cannot coexist c and b/p",
+            "coexist_bp_k":"error: cannot coexist k and b/p",
+            "negative_dice":"error: dice cannot be negative",
+            "round_too_big":"error: too many rounds",
+            "pick_too_many":"error: too many picks",
+        }
+    },
+    "set_attr":{
+        "clr":"{0} cleared",
+        "del":"{0}::{1} deleted'",
+        "mod":"{0}::{1} modified {2} <- {3}",
+        "show":"{0}::{1} = {2}",
+        "set":"{0}::{1} set to {2}",
+        "err":{
+            "miss_skill":"missing skill name",
+            "no_skill":"no skill available",
+            "not_name":"skill name cannot has number",
+            "hash_not_allow":"round not allow",
+            "sign_not_allow":"sign not allow",
+            "dice":"{..}",
+            "unknown":"???"
+        }
+    },
+    "san_check":{
+        "reply":"sc {0}: {1}/{2} {3}, {4} san {5} -> {6}",
+        "err":{
+            "l":"left expr: {..}",
+            "r":"right expr: {..}",
+            "incomplete":"incomplete expr",
+            "no_san":"san not set",
+            "unknown":"???"
+        }
+    },
+    "dice":{
+        "critical_success":"CRITICAL SUCCESS!",
+        "extreme_success":"Extreme Success",
+        "hard_success":"Hard Success",
+        "regular_success":"success",
+        "failure":"Failure",
+        "fumble":"FUMBLE!",
+        "unknown_result":"error: unknown result"
+    },
+    "deck":{
+        "show":"deck {1} = {2}",
+        "list":"decks {1}",
+        "err":{
+            "deck_not_found":"deck not found"
+        }
+    },
+    "draw":{
+        "illegal_arg":"error: illegal argument",
+        "limited":"error: drawing too many",
+        "positive":"error: require positive amount",
+
+        "card":"{0} got {1}"
+    },
+    "game":{
+        "no_arg":"need argument",
+        "err_no_game":"error: unknown game",
+        "err_empty":"error: need parameter",
+        "err_in_game":"error: already in game",
+        "search_empty":"error: need match uuid",
+        "invalid_uuid":"error: invalid uuid",
+        "err_no_match":"error: match not found",
+        "err_not_in_match":"error: not in match",
+        "err_not_playing":"error: match not begin/already ended",
+        "err_not_your_turn":"error: not your turn",
+        "err_invalid_move":"error: invalid move",
+        "unknown":"unknown error",
+
+        "joined":"{1} just joint the match",
+        "join":"{0} joint the match",
+        "init":"{0} started new match = {1}",
+        "begin":"game now begins",
+        "your_turn":"your turn:\n{1}",
+        "updated":"game updated:\n{1}",
+        "last_move":"previous player moved = {1}",
+        "end":"game ended, your score = {1}"
+    }
+}

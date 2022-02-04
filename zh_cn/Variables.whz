@@ -2,6 +2,7 @@
     "default":"阿巴阿巴阿巴",
     ""unknown_command"":"你要我干啥，详细介绍下呗",
     "illegal_arg":"错误:无效参数",
+    "no_arg":"错误:无参数",
     "no_permit":"权限不足: {0}的当前权限{1}，但是该指令需要{2}权限",
     "whz":{
         "not_implemented":"NOT IMPLEMENTED",
@@ -115,5 +116,10 @@
         "updated":"局面更新:\n{1}",
         "last_move":"上一步是: {1}",
         "end":"对局结束，{0}得分 {1}"
+    },
+    "lang":{
+        "current":"{0}当前正在使用{1}",
+        "changed":"已修改使用语言",
+        "unknown_lang":"bot还没有学会这门语言"
     }
 }

@@ -1,12 +1,12 @@
 {
     "default":"阿巴阿巴阿巴",
-    ""unknown_command"":"你要我干啥，详细介绍下呗",
-    "illegal_arg":"错误:无效参数",
-    "no_arg":"错误:无参数",
+    "unknown_command":"你要我干啥，详细介绍下呗",
+    "illegal_arg":"参数无效，你要是不懂去查.help [指令名]",
+    "no_arg":"参数不能为空，你要是不懂去查.help [指令名]",
     "no_permit":"权限不足: {0}的当前权限{1}，但是该指令需要{2}权限",
     "whz":{
         "not_implemented":"NOT IMPLEMENTED",
-        "disabled":"function disabled by whz"
+        "disabled":"function has been disabled by whz"
     },
     "bot":{
         "empty_call":"?",
@@ -119,7 +119,12 @@
     },
     "lang":{
         "current":"{0}当前正在使用{1}",
-        "changed":"已修改使用语言",
+        "changed":"已修改{0}的使用语言",
         "unknown_lang":"bot还没有学会这门语言"
+    },
+    "name":{
+        "remove":"{0}的名字已重置",
+        "changed":"现在你叫{1}了",
+        "too_long":"名字不能设置这么长，最多20个字符"
     }
 }

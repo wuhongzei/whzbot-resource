@@ -23,7 +23,7 @@
 			"store":"ys_e4"
 		},
 		{
-			"gacha":"原神三星",
+			"gacha":"三星",
 			"type":"str",
 			"prob": {
 				"predicate":"prob_remain"
@@ -135,8 +135,8 @@
 			"prob": {
 				"predicate":"prob_kinked",
 				"base":0.08,
-				"kink":9,
-				"increment":1
+				"kink":100,
+				"increment":0
 			},
 			"count_mode":1,
 			"store":"an_n5"
@@ -158,5 +158,23 @@
 			},
 			"count_mode":0
 		}
-	]
+	],
+	"genshin_event_ten": [ {
+			"gacha":"{genshin_event},{genshin_event},{genshin_event},{genshin_event},{genshin_event},{genshin_event},{genshin_event},{genshin_event},{genshin_event},{genshin_event}",
+			"type":"gacha",
+			"prob": {
+				"predicate":"prob_remain"
+			},
+			"count_mode":0
+		}
+	],
+    "arknights_event_ten": [ {
+            "gacha":"{arknights_event},{arknights_event},{arknights_event},{arknights_event},{arknights_event},{arknights_event},{arknights_event},{arknights_event},{arknights_event},{arknights_event}",
+            "type":"gacha",
+            "prob": {
+                "predicate":"prob_remain"
+            },
+            "count_mode":0
+        }
+    ]
 }

@@ -1,3 +1,8 @@
 rd=r d
 原神抽卡=gacha genshin_event
+原神十连=gacha genshin_event_ten
 舟游抽卡=gacha arknights_event
+舟游十连=gacha arknights_event_ten
+dd=set dice.default_dice
+bot=set bot.on
+setcoc=set dice.rule

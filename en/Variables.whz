@@ -2,6 +2,7 @@
     "default":"Aaaaaaaaaa...",
     "unknown_command":"unknown command",
     "illegal_arg":"illegal argument",
+    "no_arg":"no argument",
     "no_permit":"no permission: need {1} but have {2}",
     "whz":{
         "not_implemented":"NOT IMPLEMENTED",
@@ -27,8 +28,12 @@
         "err_unknown_prop": "error: unknown property"
     },
     "roll":{
-        "reply":"{0} get {1}",
-        "reply_reason":"{0} get {1} due to {2}",
+        "reply":"{0} got {1}",
+        "reply_reason":"{0} got {1} due to {2}",
+        "reply_hidden":"{0} rolled a dice secretly",
+        "turn":"{0} got: {1} turn",
+        "reply_turn":"{0} got: {1} for {2} times",
+        "reply_turn_reason":"{0} got: {1} for {2} times due to {3}",
         "err": {
             "arg_after_b":"error: missing argument after b",
             "arg_after_p":"error: missing argument after p",
@@ -111,5 +116,15 @@
         "updated":"game updated:\n{1}",
         "last_move":"previous player moved = {1}",
         "end":"game ended, your score = {1}"
+    },
+    "lang":{
+        "current":"{0} is now using {1}",
+        "changed":"changed language for {0}",
+        "unknown_lang":"err: unknown language"
+    },
+    "name":{
+        "remove":"reset name for {0}",
+        "changed":"may bot call you {1} now",
+        "too_long":"err: name too long"
     }
 }

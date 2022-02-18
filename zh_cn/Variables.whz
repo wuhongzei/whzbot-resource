@@ -42,7 +42,7 @@
             "coexist_bp_k":"错误：选择骰与奖惩骰不能同时使用",
             "negative_dice":"错误：骰子面数不能是负数",
             "round_too_big":"错误：骰子轮数过多",
-            "pick_too_many":"错误：选择骰数量过多",
+            "pick_too_many":"错误：选择骰数量过多"
         }
     },
     "set_attr":{

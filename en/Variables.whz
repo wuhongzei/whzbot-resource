@@ -42,7 +42,7 @@
             "coexist_bp_k":"error: cannot coexist k and b/p",
             "negative_dice":"error: dice cannot be negative",
             "round_too_big":"error: too many rounds",
-            "pick_too_many":"error: too many picks",
+            "pick_too_many":"error: too many picks"
         }
     },
     "set_attr":{

@@ -126,5 +126,11 @@
         "remove":"reset name for {0}",
         "changed":"may bot call you {1} now",
         "too_long":"err: name too long"
-    }
+    },
+         "set":{
+             "no_val":"no value",
+             "reply":"key is set to {1}",
+             "no_arg":"missing argument",
+             "invalid_key":"the requested key is undefined.",
+         }
 }

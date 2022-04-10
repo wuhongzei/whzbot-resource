@@ -19,7 +19,7 @@
         "reply":"{0}今天的人品值是: {1}"
     },
     "omkj":{
-        "reply":"{1}今天抽到了{0}!"
+        "reply":"{0}今天抽到了{1}!"
     },
     "roll_det":{
         "reply":"{0}进行{1}检定: %d/%d, {2}",
@@ -126,5 +126,11 @@
         "remove":"{0}的名字已重置",
         "changed":"现在你叫{1}了",
         "too_long":"名字不能设置这么长，最多20个字符"
+    },
+    "set":{
+        "no_val":"no value",
+        "reply":"key is set to {1}",
+        "no_arg":"missing argument",
+        "invalid_key":"the requested key is undefined.",
     }
 }

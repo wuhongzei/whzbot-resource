@@ -5,7 +5,7 @@
 .help 设定
 .help 指令
 .help 作者",
-"version":"2.7.2.80",
+"version":"2.7.2.82",
 "ver2.7.2":"增加了改名，使用方式.nn [名]。",
 "ver2.7.1":"增加了开关，使用方式.set bot on/off。 修改了game。增加了.set dice.rule （可用数值0-6）。不再允许在.set设置奇怪的东西",
 "ver2.7.0":"现在可以通过.set show [路径] 查看当前设置。增加了game指令，详情查询.help game",

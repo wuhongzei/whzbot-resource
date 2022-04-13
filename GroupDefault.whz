@@ -7,6 +7,7 @@
         "cool_down":0
     },
     "dice":{
+        "on":1,
         "default_dice":100,
         "rule":0
     },

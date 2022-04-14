@@ -1,5 +1,5 @@
 {
-"help":"whzbot ver{version}
+"help":"whzbot ver{.version}
 .help 更新
 .help 协议
 .help 设定

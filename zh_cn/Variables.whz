@@ -3,7 +3,7 @@
     "unknown_command":"你要我干啥，详细介绍下呗",
     "illegal_arg":"参数无效，你要是不懂去查.help [指令名]",
     "no_arg":"参数不能为空，你要是不懂去查.help [指令名]",
-    "no_permit":"权限不足: {0}的当前权限{1}，但是该指令需要{2}权限",
+    "no_permit":"权限不足: {0}的当前权限{2}，但是该指令需要{1}权限",
     "whz":{
         "not_implemented":"NOT IMPLEMENTED",
         "disabled":"function has been disabled by whz"

@@ -1,11 +1,12 @@
 {
-"help":"whzbot ver{.version}
+"help":"whzbot ver{.version}, assets ver{version}
 .help 更新
 .help 协议
 .help 设定
 .help 指令
 .help 作者",
-"version":"2.7.2.82",
+"version":"2.8.1.86",
+"ver2.8.1":"增加了repeat以重复上一次的bot回复,增加了可执行文本(见exec), 更新了一些卡堆",
 "ver2.7.2":"增加了改名，使用方式.nn [名]。",
 "ver2.7.1":"增加了开关，使用方式.set bot on/off。 修改了game。增加了.set dice.rule （可用数值0-6）。不再允许在.set设置奇怪的东西",
 "ver2.7.0":"现在可以通过.set show [路径] 查看当前设置。增加了game指令，详情查询.help game",
@@ -248,7 +249,7 @@ NOT IMPLEMENTED 大失败自动失去最大值
 .jrrp on #群内启用jrrp
 一天一个人品值
 骰娘只负责从随机，请勿无能狂怒
-如何发配所有人的命运，让骰子不务正业的恶毒程序员,叫声是咕咕咕的诡异猫头鹰,喜欢泡澡的白化病末影人——whz本体掌握",
+如何发配所有人的命运，由{whz}——whz本体掌握",
 "send":"NOT IMPLEMENTED 发送消息：.send 想对Master说的话
 如果用来调戏Master请做好心理准备",
 "入群欢迎":"{welcome}",

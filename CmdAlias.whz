@@ -3,7 +3,6 @@ jjrp=jrrp
 fudu=echo
 复读=echo
 rc=ra
-repeat=echo
 抽卡=draw
 我从牌堆中抽取=draw
 我从卡池中抽取=draw

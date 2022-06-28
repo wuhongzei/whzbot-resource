@@ -5,12 +5,12 @@
     "no_arg":"参数不能为空，你要是不懂去查.help [指令名]",
     "no_permit":"权限不足: {0}的当前权限{2}，但是该指令需要{1}权限",
     "whz":{
-        "not_implemented":"NOT IMPLEMENTED",
-        "disabled":"function has been disabled by whz"
+        "not_implemented":"没写完啊",
+        "disabled":"该功能已被whz禁用"
     },
     "bot":{
         "empty_call":"?",
-        "inhibited":"function inhibited"
+        "inhibited":"该功能已被禁用"
     },
     "help":{
         "not_found":"未找到指定的帮助信息"

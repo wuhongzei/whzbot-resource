@@ -102,6 +102,7 @@
         "search_empty":"error: need match uuid",
         "invalid_uuid":"error: invalid uuid",
         "err_no_match":"error: match not found",
+        "not_begin":"error: match fails to begin",
         "err_not_in_match":"error: not in match",
         "err_not_playing":"error: match not begin/already ended",
         "err_not_your_turn":"error: not your turn",

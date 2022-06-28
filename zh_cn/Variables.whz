@@ -99,6 +99,7 @@
         "err_no_game":"未知小游戏，可用列表见.help game",
         "err_empty":"后面还需要参数哦",
         "err_in_game":"你已经加入了对局，等结束后再来吧",
+        "not_begin":"对局启动失败",
         "search_empty":"未输入对局uuid",
         "invalid_uuid":"你这uuid有问题吧",
         "err_no_match":"找不到对局啊",

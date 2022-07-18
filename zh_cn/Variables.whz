@@ -4,6 +4,7 @@
     "illegal_arg":"参数无效，你要是不懂去查.help [指令名]",
     "no_arg":"参数不能为空，你要是不懂去查.help [指令名]",
     "no_permit":"权限不足: {0}的当前权限{2}，但是该指令需要{1}权限",
+    "deck_not_found":"错误:未找到牌堆",
     "whz":{
         "not_implemented":"没写完啊",
         "disabled":"该功能已被whz禁用"

@@ -309,6 +309,11 @@ web.on 默认群聊关私聊开
 web.anti_app 默认群聊关私聊开
 web.image_url 默认群聊关私聊开
 ",
+"update":"在线更新
+.update lang [lang.doc/var/ctl] [path] [val]
+.update alias [cmd] (var)
+.update deck [deck.card] [int]
+.update deck [deck] [json_list]",
 "game":"复杂的小游戏系统 , 若要查询具体游戏规则，使用.help [游戏名]
 .game init [游戏名] 来创建一个对局, 将会返还一个uuid，可以用于邀请其他玩家.
     当前可用的游戏 tictactoe/TicTacToe 井字棋.

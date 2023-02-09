@@ -134,5 +134,15 @@
         "reply":"key is set to {1}",
         "no_arg":"missing argument",
         "invalid_key":"the requested key is undefined.",
+    },
+    "variable":{
+        "type_err":"不支持此变量类型",
+        "read":"{1} = {2}",
+        "put":"{1} {2}",
+        "collide":"该变量名存在冲突",
+		"assign":"已为{1}赋值"
     }
+	"function":{
+		"null":"未找到函数"
+	}
 }

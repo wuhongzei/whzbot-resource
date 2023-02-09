@@ -1,6 +1,7 @@
 {
     "bot":{
-        "on":1
+        "on":1,
+        "delay":100
     },
     "general":{
         "on":1,
